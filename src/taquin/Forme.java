@@ -26,7 +26,7 @@ import javax.swing.UIManager;
 
 /**
  *
- * @author brahim
+ * @author Azer
  */
 public class Forme extends JFrame {
 
@@ -34,7 +34,7 @@ public class Forme extends JFrame {
 
     private JMenuBar principale;
     private JMenu mJeu, mHelp, mType, mTaille, mTheme;
-    public JMenuItem mQuiter, mOuvrir, mLancer, mRejouer, mApropos;
+    public JMenuItem mQuiter, mOuvrir, mLancer, mRejouer;
     public JMenuItem mHowToUse, mStop, mStart, mScore;
     public JMenuItem mLancerPauser;
     public JRadioButtonMenuItem mWindows, mNimbus, mWindowsClassic, mMetal, mCDEMotif, mSystem;
@@ -159,7 +159,6 @@ public class Forme extends JFrame {
         mRejouer = new JMenuItem("Rejouer", KeyEvent.VK_R);//raccourci alt+R
         mLancerPauser = new JMenuItem("Pauser la musique");// titre par défaut
 
-        mApropos = new JMenuItem("A propos de nous", KeyEvent.VK_A);//raccourci alt+A
         mHowToUse = new JMenuItem("Comment jouer ?", KeyEvent.VK_C);//raccourci alt+C
 
         mStop = new JMenuItem("Suspendre le jeu", KeyEvent.VK_S);//raccourci alt+S
@@ -324,7 +323,7 @@ public class Forme extends JFrame {
 		//--
 
         //--le menu Help
-        mHelp.add(mApropos);
+     
         mHelp.addSeparator();
         mHelp.add(mHowToUse);
 

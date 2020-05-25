@@ -6,7 +6,7 @@ import javazoom.jl.player.*;
 
 /**
  * 
- * @author brahim
+ * @author Azer
  */
 public class Musique extends Thread {
 

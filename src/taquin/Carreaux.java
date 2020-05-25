@@ -2,7 +2,7 @@ package taquin;
 
 /**
  * 
- * @author brahim
+ * @author Azer
  */
 public class Carreaux {
 

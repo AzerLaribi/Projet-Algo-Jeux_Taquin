@@ -13,7 +13,7 @@ import javax.swing.UIManager;
 
 /**
  *
- * @author brahim
+ * @author Azer
  */
 public class ActionsController implements ActionListener, WindowListener {
 
@@ -100,7 +100,7 @@ public class ActionsController implements ActionListener, WindowListener {
             else if (e.getSource() == forme.mApropos) {
                 Toolkit.getDefaultToolkit().beep();
                 JOptionPane.showMessageDialog(forme, "Réalisé par:"
-                        + "\n       Brahim Arkni", "A propos ?", JOptionPane.INFORMATION_MESSAGE);
+                        + "\n       Azer Laaribi\n       Imen Ben Haj Salem\n", "A propos ?", JOptionPane.INFORMATION_MESSAGE);
             }//
             //la taille 50px
             else if (e.getSource() == forme.m50) {
